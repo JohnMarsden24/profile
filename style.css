@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins&display=swap');
+
+* {
+  margin: 0;
+  border: 0;
+}
+
+body {
+  display: block;
+}
+
+h1 {
+  letter-spacing: 5px;
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(250, 250, 250);
+}
+
+.card {
+  width: 100%;
+  height: 100vh;
+  color: rgb(250, 250, 250);
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.top-card {
+  background-color: #0CA4A5;
+  display: inline-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-card {
+  margin-left: 20px;
+}
+
+#profile-photo {
+  object-fit: cover;
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  border: 2px solid;
+  box-shadow: 0px 0px 10px 4px rgb(230, 230, 230);
+}
+
+.middle-card {
+  height: auto;
+  background-color: #06908F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.middle-card p {
+  margin: 4% 24%;
+  text-align: justify;
+}
+
+.bottom-card {
+  background-color: #8DCCCC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-card ul {
+  list-style-type: none;
+}
+
+.bottom-card li {
+  font-size: 104px;
+  margin: 24px;
+  display: inline;
+}
+
